@@ -12,12 +12,13 @@ import SinglePostPage from './routes/SinglePostPage.jsx';
 import Write from './routes/Write.jsx';
 import LoginPage from './routes/LoginPage.jsx';
 import RegisterPage from './routes/RegisterPage.jsx';
+import MainLayout from './layouts/MainLayout.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <MainLayout/>,
     children:[
       {
         path: "/",
